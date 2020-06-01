@@ -19,5 +19,6 @@ const schema = makeExecutableSchema(getSchema())
 
 ## Contributors
 
+- [@appigram](https://github.com/appigramj)
 - [@nicolaslopezj](https://github.com/nicolaslopezj)
 - [@hammadj](https://github.com/hammadj)
