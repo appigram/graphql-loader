@@ -1,6 +1,6 @@
-import union from 'lodash/union'
-import keys from 'lodash/keys'
-import {allTypeDefs} from './store'
+import union from 'lodash-es/union'
+import keys from 'lodash-es/keys'
+import { allTypeDefs } from './store'
 
 export default function () {
   const allTypesDefs = union(...allTypeDefs)
