@@ -2,7 +2,7 @@
 /* global it */
 /* global expect */
 import resolveResolvers from './resolveResolvers'
-import keys from 'lodash-es/keys'
+import { keys } from 'lodash-es'
 
 describe('Resolve resolvers function', () => {
   it('should return one object with types', () => {

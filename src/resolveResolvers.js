@@ -1,4 +1,4 @@
-import keys from 'lodash-es/keys'
+import { keys } from 'lodash-es'
 import { allResolvers } from './store'
 
 export default function () {

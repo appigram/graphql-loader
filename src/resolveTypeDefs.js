@@ -1,5 +1,4 @@
-import union from 'lodash-es/union'
-import keys from 'lodash-es/keys'
+import { union, keys } from 'lodash-es'
 import { allTypeDefs } from './store'
 
 export default function () {
