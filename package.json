@@ -1,39 +1,38 @@
 {
-  "name": "@appigram/graphql-loader",
-  "version": "1.2.10",
-  "main": "lib/index.js",
-  "repository": "http://github.com/appigram/graphql-loader",
-  "author": "Eugene Sysmanov <appigram@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "babel ./src --out-dir ./lib",
-    "prepare": "npm run build",
-    "test": "npm run lint && jest --testEnvironment node",
-    "watch": "watch npm\\ run\\ build ./src",
-    "test-watch": "jest --watch",
-    "lint": "standard \"src/**/*.js\"",
-    "lint-fix": "standard --fix \"src/**/*.js\""
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/lib"
-    ]
-  },
-  "devDependencies": {
-    "@babel/types": "^7.12.10",
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/plugin-transform-runtime": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.6.3",
-    "eslint": ">=7.26.0",
-    "jest-cli": "^26.6.3",
-    "standard": "*"
-  },
-  "dependencies": {
-    "autobind-decorator": "^2.4.0",
-    "lodash": "^4.17.21"
-  }
+	"name": "@appigram/graphql-loader",
+	"version": "1.2.12",
+	"main": "lib/index.js",
+	"repository": "http://github.com/appigram/graphql-loader",
+	"author": "Eugene Sysmanov <appigram@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "babel ./src --out-dir ./lib",
+		"prepare": "npm run build",
+		"test": "npm run lint && jest",
+		"watch": "watch npm\\ run\\ build ./src",
+		"test-watch": "jest --watch",
+		"lint": "standard \"src/**/*.js\"",
+		"lint-fix": "standard --fix \"src/**/*.js\""
+	},
+	"jest": {
+		"testPathIgnorePatterns": [
+			"/node_modules/",
+			"/lib"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.14.8",
+		"@babel/core": "^7.15.0",
+		"@babel/plugin-transform-runtime": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"babel-eslint": "^10.1.0",
+		"babel-jest": "^27.1.0",
+		"eslint": ">=7.32.0",
+		"jest-cli": "^27.1.0",
+		"standard": "*"
+	},
+	"dependencies": {
+		"autobind-decorator": "^2.4.0",
+		"lodash": "^4.17.21"
+	}
 }

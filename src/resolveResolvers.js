@@ -1,7 +1,6 @@
-import { keys } from 'lodash-es'
-import { allResolvers } from './store'
+import { keys } from 'lodash'
 
-export default function () {
+export default function (allResolvers = []) {
   const resolvers = {}
 
   allResolvers.forEach(resolversGroup => {

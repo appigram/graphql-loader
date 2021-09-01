@@ -1,7 +1,6 @@
-import { union, keys } from 'lodash-es'
-import { allTypeDefs } from './store'
+import { keys, union } from 'lodash'
 
-export default function () {
+export default function (allTypeDefs = []) {
   const allTypesDefs = union(...allTypeDefs)
   const typeDefs = {}
   const scalars = []

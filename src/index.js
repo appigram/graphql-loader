@@ -10,8 +10,8 @@ if (!global.gqlLoader) {
 
   const getSchema = function () {
     return {
-      typeDefs: resolveTypeDefs(),
-      resolvers: resolveResolvers()
+      typeDefs: resolveTypeDefs(allTypeDefs),
+      resolvers: resolveResolvers(allResolvers)
     }
   }
   global.gqlLoader = { loadSchema, getSchema }
