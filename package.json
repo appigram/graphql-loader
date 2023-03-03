@@ -1,6 +1,6 @@
 {
 	"name": "@appigram/graphql-loader",
-	"version": "1.2.19",
+	"version": "1.2.20",
 	"main": "lib/index.js",
 	"repository": "http://github.com/appigram/graphql-loader",
 	"author": "Eugene Sysmanov <appigram@gmail.com>",
@@ -21,14 +21,14 @@
 		]
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.19.3",
-		"@babel/core": "^7.19.6",
-		"@babel/plugin-transform-runtime": "^7.19.6",
-		"@babel/preset-env": "^7.19.4",
+		"@babel/cli": "^7.21.0",
+		"@babel/core": "^7.21.0",
+		"@babel/plugin-transform-runtime": "^7.21.0",
+		"@babel/preset-env": "^7.20.2",
 		"babel-eslint": "^10.1.0",
-		"babel-jest": "^29.2.2",
-		"eslint": "^8.26.0",
-		"jest-cli": "^29.2.2",
+		"babel-jest": "^29.4.3",
+		"eslint": "^8.35.0",
+		"jest-cli": "^29.4.3",
 		"standard": "*"
 	},
 	"dependencies": {
