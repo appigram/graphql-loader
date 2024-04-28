@@ -1,2 +1,2 @@
-export const allTypeDefs = []
-export const allResolvers = []
+export const allTypeDefs = [];
+export const allResolvers = [];
