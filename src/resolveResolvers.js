@@ -1,13 +1,13 @@
-import keys from 'lodash.keys';
+import keys from 'lodash.keys'
 
 export default function (allResolvers = []) {
-  const resolvers = {};
+  const resolvers = {}
 
   allResolvers.forEach(resolversGroup => {
     keys(resolversGroup).forEach(type => {
-      resolvers[type] = { ...resolvers[type], ...resolversGroup[type] };
-    });
-  });
+      resolvers[type] = { ...resolvers[type], ...resolversGroup[type] }
+    })
+  })
 
-  return resolvers;
+  return resolvers
 }
